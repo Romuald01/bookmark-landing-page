@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a landing page built for a bookmark organisation">
+    
+    <link rel="stylesheet" type="jpg/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Frontend Mentor | Bookmark landing page</title>
+</head>
+<body>
+    <div class="container main-body">
+        <!-- toogle sidebar start here-->
+<div id="myNav" class="overlay">
+<div class="side-header">
+    <img src="images/logo-bookmark-sidebar.svg" alt="bookmark-logo" class="sidebar-bookmark-logo" style="margin-top:5%;">
+    <a href="javascript:void(0)"  onclick="closeNav()"><img src="images/icon-close.svg" alt="" class="closebtn"></a>
+</div>
+    <div class="overlay-content">
+      <a href="#">Features</a>
+      <a href="#">Pricing</a>
+      <a href="#">Contact</a>
+      <a href="#">Login</a>
+      <div class="social-media-div">
+        <img src="images/icon-facebook.svg" alt="facebook-icon" class="sidebar-social-media-icons">        
+        <img src="images/icon-twitter.svg" alt="twitter-icon" class="sidebar-social-media-icons">
+    </div> 
+    </div>
+   
+  </div>
+        <!-- toogle sidebar ends here-->
+        <header class="header">
+            <div class="row mt-4">
+                <div class="col-md-12 ">
+                    <div class="menu">
+                        <div class="brand_logo"><img src="images/logo-bookmark.svg" alt="company_logo" class="company-head-logo"></div>
+                        <div class="nav">
+                            <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+                                <img src="images/icon-hamburger.svg" alt="icon-hamburger" class="icon-hamburger">
+                            </span>
+                            <div class="topnav" id="myTopnav">
+                                <a href="#home">Features</a>
+                                <a href="#news">Pricing</a>
+                                <a href="#contact">Contact</a>
+                                <a href="#about" class="login">login</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="second-section">
+            <div class="container">
+                <div class="row simple-bookmark-manager">
+                    <div class="col-md-6 mt-5 simple-bookmark">
+                        <h1 class="simple-bookmark-text">A Simple Bookmark Manager</h1>
+                        <p class="simple_bookmark_text"> A clean and simple interface to organize your favourite 
+                            websites.Open a new browser tab and see your sites load instantly. Try it for free.</p>
+                        <button type="button" class="btn btn_chrome"> Get it on Chrome</button>
+                        <button type="button" class="btn btn_firefox">Get it on Firefox </button> 
+                    </div>  
+                    <div class="col-md-6 illustration-hero">  
+                        <div class="hero-background"></div>
+                        <div class="illustration-hero-div">
+                            <img src="images/illustration-hero.svg" alt="illustration-hero" class="illustration-hero-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="third-section">
+            <div class="row">
+                <div class="company_features text-center">
+                    <h2 class="company_features_heading">Features</h2>
+                    <p class="feature-paragraph">Our aim is to make it quick and easy for you to access your
+                        favourite websites. Your bookmarks sync between your devices so 
+                        you can access them on the go.</p>
+                </div>
+            </div>
+        </section>  
+        <div class="row">
+            <div class="col-md-12">
+                <div class="search_bookmarks text-center"> 
+                    <ul class="nav  nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Simple Bookmarking </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"> Speedy Searching</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Easy Sharing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-content" id="pills-tabContent">
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <section class="">
+                            <div class="container">
+                                <div class="row nav-scroll my-5">
+                                    <div class="col-md-7 position-relative simple_bookmarking">
+                                        <div class="position-absolute simple_bookmarking_background"></div>
+                                        <div class="simple_bookmarking_img_div">
+                                            <img src="images/illustration-features-tab-1.svg" alt="illustration-features-tab-1" class="search-img first-search-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 navtab_simple_bookmark">
+                                        <h1 class="simple_bookmark_heading">Bookmark in one click</h1>
+                                        <p class="simple_bookmark_text">Organize your bookmarks however you like. Our simple drag-and-drop interface gives 
+                                            you complete control over how you manage your favourite sites.</p>
+                                            <button type="button" class="btn btn_chrome">More Info</button> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <section class="">
+                            <div class="container">
+                                <div class="row nav-scroll my-5">
+                                    <div class="col-md-7 position-relative simple_bookmarking">
+                                        <div class="position-absolute simple_bookmarking_background"></div>
+                                        <div class="simple_bookmarking_img_div">
+                                            <img src="images/illustration-features-tab-2.svg" alt="illustration-features-tab-1" class="first-search-img last-two-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5  navtab_simple_bookmark">
+                                        <h1 class="simple_bookmark_heading">Intelligent search </h1>
+                                        <p class="simple_bookmark_text">Our powerful search feature will help you find saved sites
+                                                in no time at all. No need to trawl through all of your bookmarks.</p>
+                                            <button type="button" class="btn btn_chrome">More Info</button> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </section>
+                    </div>
+                    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                        <section class="SpeedSearching">
+                            <div class="container">
+                                <div class="row nav-scroll my-5">
+                                    <div class="col-md-7 position-relative simple_bookmarking">
+                                        <div class="position-absolute simple_bookmarking_background"></div>
+                                        <div class="simple_bookmarking_img_div">
+                                            <img src="images/illustration-features-tab-3.svg" alt="illustration-features-tab-1" class="first-search-img last-two-img">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5 navtab_simple_bookmark">
+                                        <h1 class="simple_bookmark_heading">Share your bookmarks</h1>
+                                        <p class="simple_bookmark_text">share your bookmarks and collections 
+                                            with others. Create a shareable link that you can send at the click of a button.</p>
+                                            <button type="button" class="btn btn_chrome">More Info</button> 
+                                    </div>
+                                </div> 
+                            </div>
+                        </section>                   
+                    </div>
+                </div>
+            </div>      
+        </div>  
+        <section class="download_extension">
+            <div class="row download_extension_headings">
+                <div class="col-md-12 download-text">
+                    <h2 class="download_text">Download the extension</h2>
+                    <p class="download_extension_paragraph">We’ve got more browsers in the pipeline. Please do let us know if you’ve 
+                        got a favourite you’d like us to prioritize.</p>
+                    </div>
+                </div>
+                <!--- extensions images -->
+                <div class="row cards-container container mt-5 browsers_card">
+                    <div class="col-md-4 chrome-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/logo-chrome.svg"  alt="Card image cap">
+                                <h4 class="card-title">Add to Chrome</h4>
+                                <p class="card-text">Minimum version 62</p>
+                                <img src="images/bg-dots.svg" alt="" class="bg_dots">
+                                <button type="button" class="btn btn-add-extension">Add & Install Extension</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 firefox_card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/logo-firefox.svg"  alt="Card image cap">
+                                <h4 class="card-title">Add to Firefox</h4>
+                                <p class="card-text">Minimum version 55</p>
+                                <img src="images/bg-dots.svg" alt="" class="bg_dots">
+                                <button type="button" class="btn btn-add-extension"> Add & Install Extension</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 opera_card">
+                        <div class="card">
+                            <div class="card-body">
+                                <img class="card-img-top" src="images/logo-opera.svg"   alt="Card image cap">
+                                <h4 class="card-title">Add to Opera</h4>
+                                <p class="card-text">Minimum version 46</p>
+                                <img src="images/bg-dots.svg" alt="" class="bg_dots">
+                                <button type="button" class="btn btn-add-extension"> Add & Install Extension</button> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- extensions images ends here--> 
+            <!--========================================= FAQ START HERE =========================================-->
+            <section class="container section-faq">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3"> 
+                        <div class="frequently-text">
+                            <h2 class="heading-secondary">
+                                Frequently Asked Questions
+                            </h2>
+                            <p class="text">
+                                Here are some of our FAQs. If you have any
+                                other questions you’d like 
+                                answered please feel free to email us.
+                            </p>
+                        </div>
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 box">
+                                        <button class="btn btn-link collapsed button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                            What is Bookmark?
+                                            <img src="images/icon-arrow.svg" alt="" class="arrow-down">
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                                        justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 box">
+                                        <button class="btn btn-link collapsed button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                            How can I request a new browser?
+                                            <img src="images/icon-arrow.svg" alt="" class="arrow-down">
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                                        Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
+                                        ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
+                                        Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0 box">
+                                        <button class="btn btn-link collapsed button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                            Is there a mobile app?
+                                            <img src="images/icon-arrow.svg" alt="" class="arrow-down">
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                                        urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
+                                        sollicitudin ex et ultricies bibendum.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header" id="headingThree">
+                                    <h5 class="mb-0 box">
+                                        <button class="btn btn-link collapsed button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                            What about other Chromium browsers?
+                                            <img src="images/icon-arrow.svg" alt="arrow-down">
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseFour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                    <div class="card-body">
+                                        Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                                        vitae neque eget nisl gravida pellentesque non ut velit.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="faq-info text-center d-block mt-5 mx-auto"><a href="#" class="more-info-text">More Info</a></button>
+                    </div>
+                </div>
+            </section>
+        </div>         
+        <!-- =========================================FAQ START HERE =========================================-->
+        <div class="newsletter_div container-fluid">
+            <section>
+                <div class="row newsletter">
+                    <div class="newsletter_contents my-5">
+                        <h5 class="already-joined mb-3">35,000+ ALREADY JOINED</h5>
+                        <p class="stay-up-to-date mb-3">Stay up-to-date with what we’re doing</p>
+                        <form action="#" onsubmit="return validation()">
+                            <div class="form-group">  
+                                 <input type="email" class="newsletter_email" id="email" placeholder="name@gmail.com">
+                                 <input type="submit" class="btn btn-contact" name="contact us" value="Contact Us">   
+                                 <span id="emailErrorMessage" class="error-text"></span>
+                                </div> 
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="row footer_background">
+                <div class="container">  
+                    <div class="row footer-content my-3">
+                        <div class="col-md-6 footer-nav">
+                            <img src="images/logo-bookmark-1.svg" alt="company-logo" class="footer-com-logo">           
+                            <a href="#" class="features_text">Features</a>          
+                            <a href="#" class="features_text">Pricing</a>          
+                            <a href="#" class="features_text"> Contact</a>        
+                        </div> 
+                        <div class="col-md-6 text-right social-media-div">
+                            <img src="images/icon-facebook.svg" alt="facebook-icon" class="social-media-icons">        
+                            <img src="images/icon-twitter.svg" alt="twitter-icon" class="social-media-icons">
+                        </div> 
+                    </div>      
+                </div>
+            </section>
+        </div>  
+    </div>                                           
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

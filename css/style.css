@@ -1,0 +1,1313 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:"Rubik",sans-serif;
+    font-size: 18px;
+}
+/*header styling */
+.icon-hamburger{
+     display: none; 
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+    .list{
+  list-style-type: none;
+    
+}
+.item{
+    display: inline-block;
+
+}
+.link,
+.link:link,
+.link:visited{
+    text-decoration: none;
+    text-transform:uppercase;
+    padding: 10px;
+    color:hsl(229, 31%, 21%);
+    font-size: 14px;
+}
+
+.topnav {
+    overflow: hidden;
+ 
+  }
+  .topnav a {
+    float: left;
+    display: block;
+    color: hsl(229, 31%, 21%);
+    text-align: center;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .topnav a.active{
+    background-color: #4CAF50;
+    color: white;
+  }
+  .login{
+    background-color: hsl(0, 94%, 66%);
+    border-radius:5px;
+    padding: 8px 10px;
+}
+.simple_bookmark_heading{
+    font-size: 24px;
+}
+
+.simple_bookmark_text{
+    font-size: 16px;
+    padding: 5px;
+    color: hsl(229, 8%, 60%);
+}
+/* button styling start here */
+.btn{
+    border:none;
+    color: #fff;
+    margin: 5px;
+    font-size: 14px;
+    padding: 8px 14px;
+}
+.btn_chrome{
+    background-color: hsl(231, 69%, 60%);
+}
+.btn_firefox{
+box-shadow: 1px 1px 2px 4px  rgba(0,0,0,0.1);
+color: hsl(229, 31%, 21%);
+
+}
+/* button styling end here */
+
+.hero-background{
+    width: 90%;
+    height: 300px;
+    background-color:hsl(231, 69%, 60%);
+    position: absolute;                                                                                                                                                                                                                                                                                                                                                                                                                         r-top-left-radius: 35%;
+    border-bottom-left-radius:35%;
+    right:-21%;
+    top:20%;
+    z-index:-1
+}
+.simple-bookmark-manager{
+    margin-top: 10%;
+    font-weight: 400;
+}
+.illustration-hero-img{
+    position: absolute;
+    top: -10%;
+    width: 100%;
+}
+.company_features{
+    width: 50%;
+    margin:auto;
+    margin-top: 10%;
+    color:hsl(229, 8%, 60%);   
+    font-size: 24px; 
+}
+.company_features_heading{
+    color: hsl(229, 31%, 21%);
+}
+.feature-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* styling of navtabs start here */
+.simple_bookmarking_background{
+    width: 90%;
+    height: 300px;
+    background-color:hsl(231, 69%, 60%);
+    border-top-right-radius: 35%;
+    border-bottom-right-radius:35%;
+    position: absolute;
+    right:30%;
+    top:30%;
+    z-index:-1;
+    height:350px;
+}
+/* styling of nav-tabs start here */
+.search_bookmarks{
+    width: 50%;
+    margin: auto;
+}
+/* navtab scrolling style start here */
+
+.nav-item .nav-link{
+    background:none !important;
+    color:hsl(229, 31%, 21%);
+}
+.nav-pills .nav-item a.active{
+    color:hsl(0, 94%, 66%);
+    border-bottom:3px solid hsl(0, 94%, 66%);
+}
+.nav-pills{
+    border-bottom:1px solid hsl(229, 31%, 21%);
+}
+/* navtab scrolling style ends here*/
+.search_bookmark_navtabs{
+    margin-bottom:18%;
+}
+.navtab_simple_bookmark{
+    margin-top: 14%;
+}
+.search-logo{
+    margin-left: 12%;
+}
+.first-search-img{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.last-two-img{
+    margin-top:  12%;
+    margin-left: 15%;
+}
+.text{
+    color:hsl(229, 8%, 60%);
+    font-weight: 400;
+}
+.download_extension{
+    position: absolute;
+    top:75rem;
+}
+.share-bookmark-img{
+    margin-left: 10%;
+
+}
+.frequent_text{
+    color: hsl(227, 36%, 5%);
+}
+.download_extension_headings,.frequently_headings{
+    width: 50%;
+    margin: auto;
+    text-align: center;  
+}
+.download_extension_paragraph,.frequently_paragraph{
+ color:hsl(229, 8%, 60%);
+ font-weight: 400;
+}
+.section-faq{
+    margin-top: 45rem;
+}
+/* styling of navtabs ends here */
+/* styling of extension card start here */
+.chrome_logo{
+width:80px;
+}
+.card-img-top{
+    top:10%;
+}
+.Add_to_browsers{
+    color: hsl(229, 31%, 21%);
+    font-size: 18px; 
+    padding: 10px;
+}
+.simple_bookmarking_background{
+margin-top: 5%;
+}
+.browser_version{
+    color:hsl(229, 8%, 60%)
+}
+.browser_btn{
+background-color: hsl(231, 69%, 60%);
+border: none;
+}
+.browser_boxes{
+text-align: center;
+}
+/* styling of the card */
+.browser_cards{
+    margin:auto;
+}
+.cards-container .card{
+    margin: auto;
+    text-align: center;
+    border: none;
+    border-radius: 35px;
+    box-shadow: 0px 1px 35px 2px rgba(0,0,0,0.1) !important;
+}
+.firefox_card{
+    margin-top:5%;
+
+   
+}
+.firefox_card img{
+text-align: center;
+}
+.opera_card{
+    margin-top: 10%;
+}
+.card-img-top{
+    width:150px;
+    
+}
+.card-body{
+    text-align: center;
+}
+.card-title{
+    font-size:18px;
+    color: hsl(229, 31%, 21%);
+    padding-top:30px;
+}
+.card-text{
+font-size: 14px;
+}
+.download_extension{
+    margin-top: 5%;
+}
+.btn-add-extension{
+    width: 100%;
+    background-color: hsl(231, 69%, 60%);
+    font-size: 18px;
+    padding: 15px 1px;
+}
+
+/* styling of the extension card ends here */
+
+/* styling of frequently ask question start here */
+.frequently-text{
+    margin-top: 20%;
+    text-align: center;
+    font-weight: 400;
+}
+/* styling of frequently ask question ends here */
+
+/* styling of FAQs start here */
+
+#accordion .card {
+  border: none  !important;
+  background: none !important; }
+
+#accordion .card-header {
+  background: none !important;
+  border-top: 1px solid #9194a1;
+  border-bottom: 1px solid #9194a1; 
+}
+.button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: hsl(229, 31%, 21%);
+    font-size: 14px;
+    padding: 0; } 
+    .faq-info{
+        background-color:hsl(231, 69%, 60%);
+        border: none;
+        padding: 10px 12px;
+        border-radius: 2px;
+    }
+    .more-info-text{
+        color: #fff;
+    }
+/* styling of FAQs ends here */
+
+/*  styling of newsletter start here */
+.newsletter{
+    background-color: hsl(231, 69%, 60%);
+    margin-top: 6%;
+}
+.newsletter_contents{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+.already-joined{
+    letter-spacing:5px;
+    color: #fff;
+    font-size:16px;
+}
+.stay-up-to-date{
+    font-size: 30px;
+    color:#fff;
+}
+.newsletter_email{
+width: 60%;
+border: none;
+padding: 5px 10px;
+border-radius: 5px;
+}
+.btn-contact{
+    background-color: hsl(0, 94%, 66%);
+    padding: 9px 5px;
+}
+.error-text{
+    color:#fff;
+    background-color:  hsl(0, 94%, 66%);
+}
+/*  styling of newsletter ends here*/
+/*  styling of footer start here */
+.footer_background{
+    background-color: hsl(229, 31%, 21%);
+    color: #fff;
+}
+.social-media-icons{
+    padding: 10px;
+}
+.features_text{
+    padding: 10px;
+    font-size:18px;
+    color: #fff;
+}
+.card-body{
+    box-shadow: none !important;
+font-size: 14px;
+}
+/* ===============MADIA QUERY START HERE */
+@media screen and (max-width: 1024px){
+    .icon-hamburger{
+        display: none;
+    }
+    .illustration-hero{
+        position: relative;
+        right: -2%;
+    }
+.hero-background{
+width: 80%;
+position: absolute;
+right:-5%;
+}
+.second-img{
+    margin-top: -10%;
+}
+.search_bookmarks{
+    width:80%;
+    margin-top: 8%;
+}
+.company_features{
+    margin-top: 12%;
+}
+.simple_bookmarking_background{
+    position: absolute;
+    top:8%;
+    height: 330px;
+}
+.simple_bookmark_heading{
+    font-size: 30px;
+}
+.simple_bookmark_text{
+    font-size: 18px;
+}
+.first-search-img{
+    width: 90%;
+    margin-top: -6%;
+    margin-left: 5%;
+}
+.navtab_simple_bookmark{
+margin-top:10%;
+}
+.tab-content{
+    margin-top: 15%;
+}
+.simple_bookmark_img{
+    margin-left: 10%;
+}
+.card-img-top{
+    width: 100px;
+}
+.download_extension{
+    margin-top: 20%;
+}
+.frequently-text{
+    margin-top: 5rem;
+}
+.heading-secondary{
+    font-size: 30px;
+}
+.bg_dots{
+    width: 100%;
+}
+}
+@media screen and (max-width: 900px) {
+    .hero-background{
+        width: 100%;
+        position: absolute;
+        right:-25%;
+        top:20%;
+    }
+    .company_features{
+        width: 70%;
+        margin:auto;
+        margin-top: 20%;
+        color:hsl(229, 8%, 60%);
+    }
+    .company_features_heading{
+        color: hsl(229, 31%, 21%);
+        font-size: 24px;
+    } 
+    .feature-paragraph{
+        font-size: 14px;
+    }.search_bookmarks {
+        width: 80%;
+    }
+    .first-search-img{
+        width: 100%;
+        margin-left: 1-0%;
+    }
+    .simple_bookmarking_background{
+        position: absolute;
+        left:-20%;
+        top:20%;
+        z-index: -1;
+        height: 250px;
+    }
+    .first-search-logo{
+        width: 100%;
+        margin-top:-10%;
+    }
+    .tab-content{
+        margin-top: 21%;
+    }
+    .navtab_simple_bookmark{
+        width: 100%;
+        position: absolute;
+        right:-5%;    
+        top: 35%;               
+    }
+    .download_extension{
+        margin-top: -5%;
+    }
+    .simple-bookmark-text{
+        font-size: 24px;
+    }
+    .simple_bookmark_heading{
+    font-size: 22px;
+    }
+    .simple_bookmark_text{
+        font-size: 14px; 
+    }  
+        .download-text{
+            margin-left: -7%;
+        }
+  .download_extension_headings{
+    width: 100%;
+
+  }
+  .download_extension_paragraph{
+      width: 100%;
+    font-size: 1rem;
+  }
+  .heading-secondary{
+      font-size: 1.2rem;
+  }
+  .card-img-top{
+      width:100px;
+  }
+  .bg_dots{
+      width: 300px;
+      margin-top: auto;
+    display: none;
+}
+  .already-joined{
+    font-size: 16px;
+}
+.newsletter_contents{
+    width: 50%;
+}
+.btn-contact{
+    padding: 12px 10px;
+    font-size: 14px;
+}
+.section-faq{
+    margin-top:40rem;
+}
+.footer-com-logo{
+    width: 120px;
+}
+.features_text{
+    font-size: 12px;
+}
+}
+
+/*==============================768px==============================================*/
+@media screen and (min-width:768px){
+    .icon-hamburger,.overlay{
+        display: none;
+
+     }
+}
+@media screen and (max-width: 768px) {
+    .illustration-hero{
+        position: relative;
+        right: -50%;
+    }
+    .hero-background{
+        width: 80%;
+       position: absolute;
+       right: -10%; 
+       
+        }
+        .illustration-hero-img{
+            width: 100%;
+            margin-right: 10%;
+            margin-top: -10%;
+       }
+       
+    .company_features_heading{
+        color: hsl(229, 31%, 21%);
+        font-size: 24px;
+        margin: auto;
+    } 
+    .company_features{
+        position: absolute;
+        top: 90%;
+        left: 25%;
+        text-align: center;
+        margin: auto;
+        width: 50%;
+    }
+    .feature-paragraph{
+        font-size: 14px;
+    }
+    .simple-bookmark{
+        width:100%;
+        position: absolute;
+        left:3%;
+        margin:auto; 
+      }
+    .simple-bookmark-text{
+        width: 100%;
+        font-size: 30px;
+    } 
+    .simple_bookmark_text{
+        width: 100%;
+        font-size: 12px;
+    }
+    .simple_bookmarking_background{
+        width:280px;
+        position: absolute;
+        left:-5%;
+        top:50%;
+        z-index:-1;
+        height: 200px;
+    }
+    .first-search-img{
+        width:250;
+        margin-top: 30%;
+        margin-left: 10%; 
+    }
+    
+    .navtab_simple_bookmark{
+        width: 100%;
+        position:absolute;
+        right:-20%;
+        top: 30%;
+    }
+    .simple_bookmark_heading{
+        width: 100%;
+        font-size: 14px;
+        }
+        .simple_bookmark_text{
+            width: 100%;
+            font-size:12px;
+        }
+    .search_bookmarks{
+        margin-top:80%; 
+        }
+    .tab-content{
+        position:absolute;
+        top:24rem;
+    }
+.nav-item{
+    text-align: center;
+    margin:5px;
+}
+.nav-link{
+    font-size: 14px;
+}
+.download_extension{
+    margin-top:-15%;
+}
+.download_extension_headings{
+    width: 70%;
+    margin: auto;
+    text-align: center;  
+}
+.download_text{
+    font-size: 24px;
+}
+.download_extension_paragraph{
+    font-size: 16px;
+    margin-left: 10px;
+}
+.section-faq{
+    margin-top: 65rem;
+}
+.frequently_headings{
+    margin-top: 5%;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.questions-div{
+width: 50%;
+margin: auto;
+}
+.features_text{
+    font-size: 14px;
+}
+.company-logo{
+    width: 100px;
+}
+ .heading-secondary{
+    width: 100%;
+    font-size: 20px;
+}
+.faq-info{
+    background-color:hsl(231, 69%, 60%);
+    color: hsl(229, 31%, 21%);
+    border: none;
+}
+.text{
+    font-size: 14px;
+}
+.btn{
+    font-size: 12px;
+}
+.accordion{
+ width: 60%;    
+}
+.button{
+    margin: 10px;
+    box-shadow: none!important;
+
+    }
+    .already-joined{
+        font-size: 16px;
+    }
+    .newsletter_contents{
+        width: 50%;
+    }
+    .btn-contact{
+        padding: 12px 10px;
+        font-size: 14px;
+    }
+    .features_text{
+        font-size: 12px;
+    }
+    .footer-com-logo{
+        width: 100px;
+    }
+   
+}
+@media screen and (max-width: 767px){
+    /*sidebar toggling code for responsiveness */
+    .icon-hamburger{
+        display:block;
+     }
+      .topnav{
+       display: none;
+   }   
+     .overlay {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+      }
+      
+      .overlay-content {
+        position:relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+      }
+      .overlay a {
+        padding: 8px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #fff;
+        display:block;
+        transition: 0.3s;
+       
+      }
+      .overlay a:focus{
+        border:2px solid #fff;
+        border-radius:5px;
+      }
+      .sidebar-bookmark-logo{
+          position: absolute;
+        top:9%;
+        left:5%;
+      }
+      .sidebar-social-media-icons{
+        margin-top:20%;
+        padding: 10px;
+      }
+    
+      .overlay a:hover, .overlay a:focus {
+        color: #f1f1f1;
+      }
+      
+      .overlay .closebtn {
+        position: absolute;
+        top: 3.5rem;
+        right: 50px;
+        font-size: 60px;
+        width: 20px;
+        
+      }
+         .second-section{
+        margin-top: 30%;
+    }
+    .illustration-hero{  
+        order:-1;
+        position: absolute;
+        right:5%;
+    }
+    .illustration-hero-img{
+        width: 100%;
+        margin-left: 3%;
+        margin-top:-15%;
+    }
+    .hero-background{
+        width: 80%;
+        position: absolute;
+        right:-5%;
+        top: 7rem;
+        text-align: center;
+    }
+    .simple-bookmark{
+        position: absolute;
+        top:35rem;
+        width: 50%;
+        margin-left: 20%;
+    }
+    .company_features{
+        width: 100%;
+        left: 0;
+        top: 30rem;
+        margin:auto;
+        text-align: center;
+        margin-top: 20rem;
+    }
+    .feature-paragraph{
+        width: 50%;
+        margin: auto;
+        padding:10px;
+    }
+    .search_bookmarks{
+        width: 100%;
+        margin-top: 47rem;
+      
+    }  
+    .tab-content{
+        position: absolute;
+        top: 40rem;
+    }
+    .simple_bookmarking_background{
+        width: 300px;
+        position: absolute;
+        left:-5rem;
+    }
+    .navtab_simple_bookmark{
+        width: 50%;
+    position: absolute;
+    right:10;
+    top: 40%;
+    }
+    .simple-bookmark-text{
+        font-size: 24px;
+       width: 100%;
+       margin:auto;
+       margin-bottom: 15px;
+    }
+    .simple_bookmark_text{
+        font-size: 14px;
+        width: 100%;
+        margin: auto;
+    
+    }
+    .tab-content{
+        margin-top: 28%;
+    }
+    .first-search-img{
+        width: 70%;
+        margin-left: -10%;
+    }
+    .btn{
+        font-size: 14px;
+    }
+    
+    .download_extension{
+        margin-top: 15rem;
+    }
+    .download_extension_headings{
+        width: 100%;
+        }
+    .card-columns{
+        display: block !important;
+    }
+    .card{
+        width: 100%;
+        display: block !important;
+    }
+    .section-faq{
+        margin-top: 10%;
+    }
+    .card-boxes{
+        width: 100%;
+        display: block !important;
+    }
+    .newsletter_email{
+        width: 100%;
+    }
+    .btn-contact{
+        width: 100%;
+        padding: 8px 10px;
+    }
+        .social-media-div{
+            text-align: center;
+            margin-top: -4%;
+        }.icon-hamburger .social-icon{
+            padding: 10px;
+    }
+    .social-media{
+       padding: 10px;
+   }
+    .cancel-icon{
+        border:none;
+        background-color: none;
+    }
+  .section-faq{
+      margin-top: 90rem;
+  }
+}
+
+@media screen and (max-width: 600px) {  
+    .overlay .closebtn {
+        position: absolute;
+        top: 4rem;
+    }
+      .icon-hamburger{
+          position: absolute;
+          right: 0; 
+          top: 5px;
+      }
+        .hero-background{
+            position: absolute;
+            left:26%;
+            top:-1rem;
+            width:80%;
+        }
+        .illustration-hero{
+            position:absolute;
+            right:8%;
+            top: 40%;
+            width: 100%;
+            order:-2;
+            margin: auto;
+        /* display: none;     */
+        }
+
+        .illustration-hero-img{
+            width:90%;
+            margin-left:8%;
+            margin-top:-20%;
+        }
+        .simple-bookmark{
+            width: 80%;
+         margin: auto;
+         text-align: center;
+         margin-left: 10%;
+        }
+        .simple-bookmark-text{
+            width: 80%;
+            font-size: 36px;  
+            margin:auto;
+            margin-bottom: 5%;
+            margin-top: -20%;        
+         }
+        .simple_bookmark_text{
+            font-size: 18px;
+            margin:auto; 
+            width: 70%
+        }
+        .btn{
+            margin-top:5% !important;
+        }
+        .company_features{
+            position:absolute;
+            left:0;
+            width: 100%;
+            top:55rem;
+            margin: auto;  
+        }
+        .feature-paragraph{
+            width: 80%;
+            font-size: 20px;
+            margin: auto;
+        }
+        .simple_bookmarking_background{
+            width: 300px;
+         position: absolute; 
+            left:-3%; 
+            top: 50%;
+        }
+         /* search navtab */
+        .search_bookmarks{
+            position:absolute;
+            top:55rem;
+            width:100%;
+            margin: auto;
+        }
+    .navtab_simple_bookmark{
+        width:100%;
+        position:absolute;
+        top:36rem;
+        margin:auto;
+        right:0;
+        text-align: center;
+    }
+    .tab-content{
+        margin-top:17rem;
+       }
+    .simple_bookmarking_background{
+        width: 400px;
+        height: 300px;
+        margin-top: 5%;
+    }
+    .first-search-img{
+            margin-top: 38%;
+    }
+    .simple_bookmark_heading{
+        margin: auto;
+        font-size: 24px;
+    }
+    .simple_bookmark_text{
+        width: 100%;
+    }
+    .navtab_simple_bookmark .btn{
+        display: none;
+    }
+       .download-text{
+           margin-left:-4%;
+       }
+    .download_extension{
+       margin: auto;
+         margin-top: 40rem; 
+    }
+    .first-search-img{
+        width: 90%;
+       margin-left: 7%;
+    }
+    .heading-secondary{
+        width: 50%;
+        font-size: 24px;
+        margin: auto;
+        text-align: center;
+    }
+    .text{
+        width: 50%;
+        font-size: 14px;
+        margin: auto;
+        margin-top: 2%;
+        margin-bottom: 10%;
+        text-align: center;
+       
+    }
+    .section-faq{
+        position: absolute;
+    top: 90rem;
+    }
+    .cards-container{
+        margin: auto;
+        width: 100%;
+        margin-left: -3%;
+    }
+    .accordion{
+        
+        margin-top: 10%;
+    }
+    .newsletter_div {
+        position: absolute;
+        top:220rem;
+    }
+    .newsletter_contents{
+        width: 100%;
+        margin-top: 145rem;
+    }
+    .stay-up-to-date{
+        width: 90%;
+        margin: auto;
+        font-size: 225%;
+    }
+.newsletter_email,.btn-contact{
+        width: 80%;
+}
+    .footer-content{
+        margin: auto;
+    }
+    .footer-com-logo{
+        width: 150px;
+        margin: auto;
+    }
+    .features_text{
+        margin: 10px;
+        font-size: 22px;
+        text-transform: uppercase;
+    }
+    .footer-nav{
+        text-align:center;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    .text-right{
+        text-align:center !important;
+        margin-top:10px;
+    }
+    
+}
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+    
+  }
+
+  @media screen and (max-width: 425px){
+        .illustration-hero-img{
+            position:absolute;
+            width:90%;
+            left:2%;
+            top:10%;
+        }
+        .hero-background{
+            width:330px;
+            position: absolute;
+            right:0%;
+            height: 200px;
+        }
+        .icon-hamburger{
+            position:absolute;
+            right:8%;
+        }
+        .simple_bookmarking_background{
+            width: 80%;
+            position: absolute;
+            left: 0%;
+        }
+        .simple-bookmark{
+            position: absolute;
+            top:27rem;
+            
+        }
+        .simple-bookmark-text{
+            width: 100%;
+            font-size: 24px;
+        }
+        .simple_bookmark_text{
+            width: 100%;
+            font-size: 16px;
+        }
+        .company_features{
+            width: 100%;
+            margin: auto;
+            position: absolute;
+            top: 47rem;
+            text-align: center;
+        }
+        .feature-paragraph{
+            font-size: 16px;
+        }
+        .search_bookmarks{
+            width: 90%;
+           margin: auto;
+            margin-top:-8rem;
+            /* margin-left:30%; */
+          
+        }
+        .nav-item{
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            margin: auto;
+            padding: 5px;
+            border-top: 1px solid hsl(229, 8%, 60%);
+            border-radius: none !important;
+        }
+        .download_extension{
+            position: absolute;
+            top: 70rem;
+        }
+        .download_text{
+            width: 100%;
+            margin: auto;
+        }
+        .tab-content{
+            margin-top: 15rem;
+        }
+        .download_extension_headings{
+            width: 90%;   
+            margin-top: 10%;
+        }
+        /* faq*/
+        .section-faq{
+            width: 90%;
+            position: absolute;
+            top:180rem;
+            margin: auto;
+        }     
+        .frequently-text{
+            width: 100%;
+            margin: auto;
+        }   
+        .text{
+            width: 75%;
+        }
+        .heading-secondary{
+            width: 80%;
+            font-size: 24px;
+        }
+        #accordion{
+            width: 90%;
+            margin: auto;
+        }
+        .btn{
+            font-size: 12px;
+            font-weight: 500;
+        }
+       
+       /* faq section */
+      
+        .card-img-top{
+            width: 80px;
+        }
+        .newsletter_contents{
+            width: 55%;
+            margin:auto;
+        }
+        .form-group{
+            margin:auto;
+            text-align: center;
+        }
+        .newsletter_contents{
+            width: 90%;
+        }
+        .already-joined{
+            width: 100%;
+            font-size: 62.5%;
+            margin: auto;
+        }
+        .btn-contact{
+            padding: 8px 10px;
+        }
+        .stay-up-to-date{
+            width: 100%;
+            font-size: 160%;
+        }
+        .newsletter_email, .btn-contact{
+                width: 100%;
+        }
+    }
+
+@media screen and (max-width:375px){
+
+    .illustration-hero-img{
+       margin-top:-15%;
+    }
+    .hero-background{
+        width: 80%;
+        position: absolute;
+        right:-20%;
+        top:20%;
+    }
+    .company_features{
+        margin-top: -20%;
+    }
+    .navtab_simple_bookmark{
+        margin-top: -35%;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .simple_bookmark_text{
+        width: 100%;
+        font-size: 14px;
+    }
+    .simple_bookmarking_background{
+        height: 200px;
+    }
+    #accordion .btn{
+        font-size: 10px;
+    }
+    .newsletter_contents{
+width: 90%;
+    }
+.stay-up-to-date{
+font-size: 150%;
+}
+.form-group{
+margin: auto;
+}
+    .already-joined{
+        width: 100%;
+        font-size:12px;
+    }
+    .navtab_simple_bookmark{
+        margin-top: 20;
+    }.download_extension{
+margin-top: 30rem;
+    }
+   
+}
+@media screen and (max-width:320px){
+    .hero-background{
+        height: 170px;
+    }
+ .simple-bookmark-text{
+     width: 100%;
+ }
+.simple_bookmark_text{
+    width: 100%;
+    font-size: 14px;
+}
+.search_bookmarks{
+position: absolute;
+top: -2rem;
+}
+.btn{
+    font-size:9px;
+}
+.company_features{
+    margin-bottom:20%;
+}
+.company_features_paragraph{
+    width: 100%;
+    font-size: 14px;
+    border: 1px solid green;
+    margin-bottom: 20px;
+}
+.search_bookmarks{
+    margin-top: 49rem;
+}
+.simple_bookmarking_background{
+    width:70%;
+    height: 75%;
+}
+.section-faq{
+    margin-top: -10rem;
+}#accordion{
+   width: 100%;
+}
+.newsletter_div{
+    position: absolute;
+    top: 205rem;
+}
+
+}
+     /* ===============MADIA QUERY START HERE ==============================*/
